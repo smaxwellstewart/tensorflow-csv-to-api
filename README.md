@@ -2,6 +2,13 @@
 
 Code from [this tutorial](https://eerwitt.github.io/2016/01/14/tensorflow-from-csv-to-api/) about creating a REST API which uses a model trained using TensorFlow. The code goes through the entire process from the downloading of a CSV training file to hosting the model in an API.
 
+
+## Port challenges
+  
+  - `sparsity` - Make use of similar tf.feature_column API for sparsity issue of input columns 
+  - `featindex` - May need to implement feat index in serving layer
+ 
+
 ## Installation
 
 Using Python 3 in a [virtual environment](https://virtualenv.readthedocs.org/en/latest/), install the required packages via [pip](https://pip.pypa.io/en/stable/).
